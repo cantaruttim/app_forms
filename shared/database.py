@@ -3,9 +3,9 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
 
-special_argument = '%40' # at = @
+#special_argument = '%40' # at = @
 
-SQLALCHEMY_DATABASE_URL = f'postgresql+psycopg2://postgres:12102021{special_argument}@localhost:5432/forms'
+SQLALCHEMY_DATABASE_URL = f'postgresql+psycopg2://postgres:password@localhost:5432/forms'
 
 engine = create_engine(
     SQLALCHEMY_DATABASE_URL
