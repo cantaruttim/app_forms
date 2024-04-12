@@ -1,0 +1,11 @@
+## Aplication
+uvicorn==0.29.0
+fastapi==0.110.1
+
+
+## DATABASE - Postegres
+SQLAlchemy==2.0.29
+psycopg2==2.9.9
+
+
+## TOOLS
